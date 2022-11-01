@@ -1,6 +1,7 @@
 # release.yaml
 name: Example Release
-on: push:
+on: 
+  push:
     tags:
       - 'release/v*'
 jobs: build:
